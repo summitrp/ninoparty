@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Party Central</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #0f0;
+    }
+    .qr-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+    .qr-box {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 0 15px #0f0;
+    }
+    .qr-box img {
+      width: 200px;
+      height: 200px;
+    }
+    .label {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Welcome to the best party in Cyprus 🎉</h1>
+  <p>Scan any code below to connect & vibe!</p>
+
+  <div class="qr-container">
+    <div class="qr-box">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://nino-party-d-zk25.glide.page" alt="Ask the DJ">
+      <div class="label">🎧 Ask the DJ</div>
+    </div>
+
+    <div class="qr-box">
+      <img src="https://i.ibb.co/k6J8KjQ5/Screenshot-2025-03-10-at-6-17-08-PM.png" alt="WiFi Login">
+      <div class="label">📶 WiFi Login</div>
+    </div>
+
+    <div class="qr-box">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://open.spotify.com/playlist/yourplaylistid" alt="Spotify Playlist">
+      <div class="label">🗳️ Voting</div>
+    </div>
+
+    <div class="qr-box">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://photowall-hyll.glide.page/dl/6471c6" alt="Photo Upload">
+      <div class="label">📸 Share Your Photos</div>
+    </div>
+
+    <div class="qr-box">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://youtu.be/uHgt8giw1LY" alt="Just for Fun">
+      <div class="label">🤪 Mystery QR</div>
+    </div>
+  </div>
+</body>
+</html>
